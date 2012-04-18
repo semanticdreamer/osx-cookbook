@@ -20,7 +20,9 @@ Install [Veewee][veewee] - "*tool to easily build vagrant base boxes*":
 
     sudo gem install veewee
 
+##Miscellaneous
 
+* [Kalenderwoche in Mac-OS X anzeigen](http://www.macwelt.de/artikel/_Tipps/371756/kalenderwoche_in_mac_os_x_anzeigen/1)
 
 [rubygems]: http://rubygems.org/ "RubyGems"
 [homebrew]: http://mxcl.github.com/homebrew/ "Homebrew"
