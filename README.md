@@ -20,6 +20,18 @@ Install [Veewee][veewee] - "*tool to easily build vagrant base boxes*":
 
     sudo gem install veewee
 
+##Editors & (Markdown) Writing Tools
+
+- [Textmate][textmate] — the missing editor for Mac OS X.
+- [Sublime Text][sublimetext] -  a sophisticated text editor for code, markup and prose.
+- [Marked][marked] - flexible Markdown preview.
+- [Marked Bonus Pack][marked-bonus-pack] - scripts, commands and bundles.
+ 
+###Markdown Preview with *Marked* from *Sublime Text*
+
+Download [Marked Bonus Pack][marked-bonus-pack] and copy the `Marked.sublime-build` file to `~/Library/Application Support/Sublime Text 2/Packages/User/`: pressing **[Command]-[B]** will open the current file in [Marked][marked] for preview.
+
+
 ##Miscellaneous
 
 * [Kalenderwoche in Mac-OS X anzeigen](http://www.macwelt.de/artikel/_Tipps/371756/kalenderwoche_in_mac_os_x_anzeigen/1)
@@ -28,3 +40,7 @@ Install [Veewee][veewee] - "*tool to easily build vagrant base boxes*":
 [homebrew]: http://mxcl.github.com/homebrew/ "Homebrew"
 [vagrant]: http://vagrantup.com/ "Vagrant"
 [veewee]: https://github.com/jedi4ever/veewee "Veewee"
+[textmate]: http://macromates.com/ "Textmate"
+[sublimetext]: http://www.sublimetext.com/ "Sublime Text"
+[marked]: http://markedapp.com/ "Marked"
+[marked-bonus-pack]: http://support.markedapp.com/kb/how-to-tips-and-tricks/marked-bonus-pack-scripts-commands-and-bundles "Marked Bonus Pack"
