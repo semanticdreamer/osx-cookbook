@@ -27,6 +27,22 @@ Install [Veewee][veewee] - "*tool to easily build vagrant base boxes*":
 - [Marked][marked] - flexible Markdown preview.
 - [Marked Bonus Pack][marked-bonus-pack] - scripts, commands and bundles.
  
+###Work with files in *Sublime Text* from the command line
+
+> Sublime Text 2 includes a command line tool, subl, to work with files on the
+> command line. This can be used to open files and projects in Sublime Text 2, 
+> as well working as an EDITOR for unix tools, such as git and subversion.
+> [sublimetext.com OS X Command Line](http://www.sublimetext.com/docs/2/osx_command_line.html)
+
+    mkdir ~/bin
+
+    vi ~/.bashrc
+    PATH=$PATH:~/bin # Add ~/bin to PATH
+
+    source ~/.bashrc
+
+    ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+
 ###Markdown Preview with *Marked* from *Sublime Text*
 
 Download [Marked Bonus Pack][marked-bonus-pack] and copy the `Marked.sublime-build` file to `~/Library/Application Support/Sublime Text 2/Packages/User/`: pressing **[Command]-[B]** will open the current file in [Marked][marked] for preview.
