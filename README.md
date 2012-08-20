@@ -1,4 +1,4 @@
-#OS X Cookbook
+# OS X Cookbook
 
 Update the [RubyGems][rubygems] system software:
 
@@ -20,14 +20,14 @@ Install [Veewee][veewee] - "*tool to easily build vagrant base boxes*":
 
     sudo gem install veewee
 
-##Editors & (Markdown) Writing Tools
+## Editors & (Markdown) Writing Tools
 
 - [Textmate][textmate] — the missing editor for Mac OS X.
 - [Sublime Text][sublimetext] -  a sophisticated text editor for code, markup and prose.
 - [Marked][marked] - flexible Markdown preview.
 - [Marked Bonus Pack][marked-bonus-pack] - scripts, commands and bundles.
  
-###Work with files in *Sublime Text* from the command line
+### Work with files in *Sublime Text* from the command line
 
 > Sublime Text 2 includes a command line tool, subl, to work with files on the
 > command line. This can be used to open files and projects in Sublime Text 2, 
@@ -43,14 +43,27 @@ Install [Veewee][veewee] - "*tool to easily build vagrant base boxes*":
 
     ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
-###Markdown Preview with *Marked* from *Sublime Text*
+### Markdown Preview with *Marked* from *Sublime Text*
 
 Download [Marked Bonus Pack][marked-bonus-pack] and copy the `Marked.sublime-build` file to `~/Library/Application Support/Sublime Text 2/Packages/User/`: pressing **[Command]-[B]** will open the current file in [Marked][marked] for preview.
 
 
-##Miscellaneous
+## Utilities
 
-* [Kalenderwoche in Mac-OS X anzeigen](http://www.macwelt.de/artikel/_Tipps/371756/kalenderwoche_in_mac_os_x_anzeigen/1)
+### ClamXav Anti-Virus
+
+- [ClamXav][clamxav] - the Free Anti-Virus Solution for Mac OS X
+
+> ClamXav Sentry provides the ability to watch folders for changes to their contents.
+> As soon as a file or folder is added to one of the watched folders, it is scanned 
+> by ClamXav. If the new addition is clean, no further action is required on your part. 
+> On the other hand, if it is infected, a warning message is displayed immediately 
+> alerting you to the fact and allowing you to decide which course of action to take.
+
+
+## Miscellaneous
+
+- [Kalenderwoche in Mac-OS X anzeigen](http://www.macwelt.de/artikel/_Tipps/371756/kalenderwoche_in_mac_os_x_anzeigen/1)
 
 [rubygems]: http://rubygems.org/ "RubyGems"
 [homebrew]: http://mxcl.github.com/homebrew/ "Homebrew"
@@ -60,3 +73,4 @@ Download [Marked Bonus Pack][marked-bonus-pack] and copy the `Marked.sublime-bui
 [sublimetext]: http://www.sublimetext.com/ "Sublime Text"
 [marked]: http://markedapp.com/ "Marked"
 [marked-bonus-pack]: http://support.markedapp.com/kb/how-to-tips-and-tricks/marked-bonus-pack-scripts-commands-and-bundles "Marked Bonus Pack"
+[clamxav]: http://www.clamxav.com/ "ClamXav"
