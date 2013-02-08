@@ -6,7 +6,7 @@ Update the [RubyGems][rubygems] system software:
 
 Install [Homebrew][homebrew] - "*The missing package manager for OS X*":
 
-    /usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
+    ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
 Check your system for potential problems and fix them - if any (exits with a non-zero status if any problems are found). Repeat... until it tells you "*Your system is raring to brew.*" :-)
 
