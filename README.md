@@ -19,6 +19,20 @@ Install [Vagrant][vagrant] - "*Create and configure lightweight, reproducible, a
 Install [Veewee][veewee] - "*tool to easily build vagrant base boxes*":
 
     sudo gem install veewee
+    
+## Web Development
+
+Creates a shell function 'server', starting an HTTP server from current working directory, optionally specifing the port:
+
+    vi ~/.bashrc
+    function server() {
+      local port="${1:-8000}"
+      open "http://localhost:${port}/"
+      python -m SimpleHTTPServer "$port"
+    }
+    
+    # called like so:
+    server 3000
 
 ## Editors & (Markdown) Writing Tools
 
