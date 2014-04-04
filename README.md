@@ -4,6 +4,11 @@ Update the [RubyGems][rubygems] system software:
 
     sudo gem update --system
 
+Make `--no-ri --no-rdoc` the system wide default for gem install:
+
+    sudo vi /etc/gemrc
+    gem: --no-ri --no-rdoc
+
 Install [Homebrew][homebrew] - "*The missing package manager for OS X*":
 
     ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
